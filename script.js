@@ -65,10 +65,12 @@ function deleteTask(index){
 }
 
 addTaskButton.addEventListener('click', () => {
-    tasks.push(new objTask(inputTask.value));
-    updateStorage();
-    TemplateHTML();
-    inputTask.value = '';
+    if(inputTask.value != ''){
+        tasks.push(new objTask(inputTask.value));
+        updateStorage();
+        TemplateHTML();
+        inputTask.value = '';
+    }
 })
 
 clearTaskButton.addEventListener('click', () => {
