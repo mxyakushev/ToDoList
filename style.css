@@ -1,0 +1,105 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.checked{
+    color:rgb(70, 68, 68);
+    text-decoration: line-through;
+    background-color: #e5d2d2;
+}
+
+/* WRAPPERS */
+
+.buttons-wrapper{
+    margin: 8px;
+    font-size: 15px;
+}
+
+.todo-wrapper{
+    margin: 15px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.task-wrapper{
+    width: 350px;
+    height:40px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.description-wrapper{
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.deleteButton-wrapper{
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    height:23px;
+}
+
+.checkboxButton-wrapper{
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+    width:23px;
+    height:23px;
+}
+
+
+
+/* BUTTONS */
+
+#addButton{
+    width: 80px;
+    height: 20px;
+    margin-right: 5px;
+    transition: background-color .4s;
+}
+
+#addButton:hover{
+    background-color:#ffffff;
+}
+
+#clearButton {
+    width: 80px;
+    height: 20px;
+    margin-left: 5px;
+    transition: background-color .4s;
+}
+
+#clearButton:hover{
+    background-color:#ffffff;
+}
+
+/* INPUT */
+
+#inputValue{
+    width: 300px;
+    background-color: #fff;
+}
+
+#checkboxButton{
+    width:23px;
+    height:23px;
+    margin: 0;
+}
+
+
+#deleteButton{
+    transition: background-color .4s;
+}
+
+#deleteButton:hover{
+    background-color: #fff;
+}
